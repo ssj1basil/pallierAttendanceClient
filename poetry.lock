@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "Fast and simple WSGI-framework for small web-applications."
+name = "bottle"
+optional = false
+python-versions = "*"
+version = "0.12.19"
+
+[[package]]
+category = "main"
+description = "Partially Homomorphic Encryption library for Python"
+name = "phe"
+optional = false
+python-versions = "*"
+version = "1.4.0"
+
+[package.extras]
+cli = ["click"]
+examples = ["numpy", "scipy", "sklearn"]
+
+[metadata]
+content-hash = "a0fff299b84aa6ba57e4edaeeafb604ea685ad203e752745c77d56619a23d150"
+python-versions = "^3.8"
+
+[metadata.files]
+bottle = [
+    {file = "bottle-0.12.19-py3-none-any.whl", hash = "sha256:f6b8a34fe9aa406f9813c02990db72ca69ce6a158b5b156d2c41f345016a723d"},
+    {file = "bottle-0.12.19.tar.gz", hash = "sha256:a9d73ffcbc6a1345ca2d7949638db46349f5b2b77dac65d6494d45c23628da2c"},
+]
+phe = [
+    {file = "phe-1.4.0.tar.gz", hash = "sha256:b5785c8e824eb7b02ebbe9b1e2080982d48a10db7b827a6771e04e22da99f473"},
+]
